@@ -1,0 +1,12 @@
+.parent{
+    .icon{
+        z-index: -1;
+    }
+    &:hover .icon{
+        z-index: 1;
+    }
+    &:hover img{
+        filter: blur(1.5px);
+    }
+    transition: 2s;
+}
